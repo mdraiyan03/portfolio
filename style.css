@@ -1,0 +1,258 @@
+body{
+    background-color: aqua;
+    background-image: url(https://i.ibb.co/VvkNZ1k/bg.jpg);
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+header{
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(https://i.ibb.co/j4BC7FH/code.jpg);
+    background-image: image-set(margin-bottom);
+    
+}
+.rightheader{
+    background-color: rgb(241, 185, 107);
+    margin-right: 200px;
+    margin: 10px;
+    width: 250px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.leftheader{
+    background-color: rgb(235, 197, 148);
+    margin: 10px;
+
+}
+main{
+    background-color: rgb(131, 131, 212);
+    font-size: medium;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+    font-size: larger;
+    justify-content: space-around;
+    border-radius: 10%;
+    background-image: url(https://i.ibb.co/6XBzWv0/imagecourier.jpg);
+    color: rgb(56, 9, 175);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+   
+        background-color: rgb(224, 224, 92);  
+        border-right:.15rem solid orange;
+        width: 0;
+        font-size: 3rem;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: main 2s steps(50 ,end )  forwards;
+
+    
+}
+.Achivement{
+    
+    display: flex;
+   
+ 
+    margin-top: 120px;
+}
+.Memories{
+    display: flex;
+    margin-top: 120px;
+    
+}
+.creator{
+    display: flex;
+    justify-content: center;
+    border: 20px;
+    border-style: groove;
+    margin: 40px;
+    color: blue;
+    background-color: aquamarine;
+   border-radius: 100px;
+   font-size: larger;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   box-sizing: border-box;
+
+}
+.journey{
+    background-color: rgb(106, 221, 71);
+    background-image: url(https://i.ibb.co/SJsjbYQ/bg-canva.png);
+
+}
+.my{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    color: rgb(15, 205, 205);
+}
+.game{
+    display: flex;
+    background-color: burlywood;
+    flex-direction: column;
+    margin: 50px;
+    justify-content: center;
+    color:rgb(227, 227, 233) ;
+    border: 10px;
+    border-color: black;
+    padding: 2%;
+    border-style: ridge;
+    border-start-end-radius: 40%;
+    background-image: url(https://i.ibb.co/CzyJ4S3/game.jpg);
+}
+.logo1{
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    object-fit: cover;
+    display: flex;
+    border-style: groove;
+    
+}
+.check{
+    display: flex;
+    text-align: justify;
+    color: color-mix(in hwb longer hue, color percentage, color percentage);
+    margin-bottom: 1px;
+}
+.moj1{
+    display: flex;
+    color: rgb(67, 47, 8);
+    margin-left: 10%;
+    border: 1px;
+    border-style: ridge;
+    border-width: 10px;
+    padding: 0.5%;
+    padding-right: 20%;
+}
+.link{
+    display: flex;
+  background-color: rgb(112, 243, 6);
+  margin: 10px;
+  color: azure;
+  border: 20px;
+  width: 100px;
+  height: 20px;
+  font-size: large;
+border-block-start-style: outset; 
+  border-style: dashed;
+  border-block-end-style: outset;
+  margin-left: 50px;
+  text-align: center;
+ 
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.twit{
+    display: flex;
+  background-color: rgb(112, 243, 6);
+  margin: 10px;
+  color: azure;
+  border: 20px;
+  width: 100px;
+  height: 20px;
+  font-size: large;
+border-block-start-style: outset; 
+  border-style: dashed;
+  border-block-end-style: outset;
+  margin-left: 50px;
+ 
+}
+.picstudy{
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    object-fit: cover;
+    border-style: groove;
+    border-color: red;
+    border-width: 5px;
+}
+.ach{
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    object-fit: cover;
+    border-style: groove;
+    border-color: red;
+    border-width: 5px;
+}
+.mem{
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    object-fit: cover;
+    border-style: groove;
+    border-color: red;
+    border-width: 5px;
+    
+}
+
+.logo2{
+width: 150px; 
+height: 150px; 
+border-radius: 50%; 
+object-fit: cover;
+border-style: groove;
+border-color: red;
+border-width: 5px;
+
+}
+#head{
+ background-color: rgb(224, 224, 92);  
+ border-right:.15rem solid orange;
+ width: 0;
+ font-size: 3rem;
+ white-space: nowrap;
+ overflow: hidden;
+ animation: head 5s steps(50 ,end ) infinite forwards;
+}
+@keyframes head{
+0%{
+    width: 0;
+}
+50%{
+    width: 100%;
+}
+}
+@keyframes main{
+    0%{
+        width: 0;
+    }
+   100%{
+    width: 100%;
+   }
+}
+.pages{
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100px;
+    width: 100px;
+    border: 5px;
+   border-color: black;
+   border-style: double;
+   
+
+}
