@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=div, initial-scale=1.0">
+    <title>Birhtday</title>
+    <STyle>
+        body {
+            margin: 50px;
+        text-align: center;
+        background-size: cover;
+        background-position: center;
+         background-image:  url(https://i.ibb.co/qmDSRDX/A-happy-coup-4f6510ae-dd28-4dbb-9587-cd0cf560ba9e.png);
+        height: 100vh;
+        width: 100%;
+        overflow: hidden;
+    }
+    .balloon_container{
+        position: relative;
+      bottom: -800px;
+      margin-right: 100px;
+    }
+    .balloon{
+        display: inline-block;
+        width: 78px;
+       height: 88px;
+       border-radius: 80%;
+       position: relative;
+       box-shadow: inset -10px -10px rgba(0, 0, 0, 0.07);
+       transition: transform 0.5s ease;
+       z-index: 10;
+       transform-origin: bottom center;
+       color: white;
+       font-weight: bold;
+       font-family: cursiVe;  
+    }
+    .balloon1{
+     animation: balloons1 forwards;
+     font-size: 58PX;
+
+    }
+    .balloon2{
+     animation: balloons2 forwards;
+     font-size: 48PX;
+     top: -94px;
+    }
+    .balloon3{
+     animation: balloons3 forwards;
+     font-size: 38px;
+     bottom: 187px;
+    }
+    @keyframes balloons1{
+    0%{ transform:translateY(10vh) rotate3d(1,1,1,90deg);opacity: 1; }
+    10%{ transform:translateY(-10vh) rotate3d(1,1,1,180deg);opacity: 1; }
+    100%{ transform:translateY(-800px) rotate3d(1,1,1,360deg);opacity: 1;}
+} 
+@keyframes balloons2{
+    0%{ transform:translateY(10vh) rotate3d(1,1,1,360deg);opacity: 1; }
+    10%{ transform:translateY(-10vh) rotate3d(1,1,1,180deg);opacity: 1; }
+    100%{ transform:translateY(-700px) rotate3d(1,1,1,0deg);opacity: 1;}
+} 
+@keyframes balloons3{
+    0%{ transform:translateY(10vh) rotate3d(1,1,1,90deg);opacity: 1; }
+    10%{ transform:translateY(-10vh) rotate3d(1,1,1,180deg);opacity: 1; }
+    100%{ transform:translateY(-600px) rotate3d(1,1,1,0deg);opacity: 1;}
+} 
+.balloon1:nth-child(1){background: rgba(225, 100, 100); animation-duration:3.0s;left: 53px; }
+.balloon1:nth-child(1){ ::before{color: rgba(225, 100, 100); }}
+.balloon1:nth-child(2){background: rgba(225, 225, 100); animation-duration:4.1s;left: 37px; }
+.balloon1:nth-child(2){ ::before{color: rgba(225, 225, 100); }}
+.balloon1:nth-child(3){background-color: rgba(225, 225, 225); animation-duration:5.2s;left: 27px; color: black; }
+.balloon1:nth-child(3){ ::before { color: rgba(225, 225, 225,);}}
+.balloon1:nth-child(4){background: rgba(0, 225, 225); animation-duration:6.3s;left: 14px; }
+.balloon1:nth-child(4){::before { color: rgba(0, 225, 225)}  }  
+.balloon1:nth-child(5){background: rgba(0, 0, 225); animation-duration:4.4s;left: 4px; }
+.balloon1:nth-child(5){::before { color: rgba(0, 0, 225)}  }  
+ 
+.balloon2:nth-child(1){background-color: rgba(225, 100, 100); animation-duration:3.0s;left: 61px; color: black; }
+.balloon2:nth-child(1){::before { color: rgba(225,100, 100);} }
+.balloon2:nth-child(2){background: rgba(225, 225, 100 ); animation-duration:6.3s;left: 39px; }
+.balloon2:nth-child(2){::before { color: rgba(225, 225, 100)}  }  
+.balloon2:nth-child(3){background: rgba(225, 225, 225); animation-duration:5.2s;left: 22px; color: black; }
+.balloon2:nth-child(3){::before{ color: rgba(225, 225, 225)}  }  
+.balloon2:nth-child(4){background: rgba(0, 225, 225); animation-duration:5.2s;left: 22px; color: black; }
+.balloon2:nth-child(4){::before { color: rgba(0, 225, 225)}  }  
+.balloon2:nth-child(5){background: rgba(0, 0, 225); animation-duration:5.2s;left: 22px; color: black; }
+.balloon2:nth-child(5){::before { color: rgba(0, 0, 225)}  }  
+
+.balloon3:nth-child(1){background-color: rgba(225, 100, 100); animation-duration:6.0s;left: 36px; color: black; }
+.balloon3:nth-child(1){::before { color: rgba(225,100, 100);} }
+.balloon3:nth-child(2){background: rgba(225, 225, 100 ); animation-duration:6.3s;left: 39px; }
+.balloon3:nth-child(2){::before { color: rgba(225, 225, 100)}  }  
+.balloon3:nth-child(3){background: rgba(225, 225, 225); animation-duration:5.2s;left: 22px; color: black; }
+.balloon3:nth-child(3){::before { color: rgba(225, 225, 225)}  }  
+
+
+
+
+
+
+
+
+
+
+</STyle>
+</head>
+<body>
+    <div class="balloon_container">
+     <div class="balloon balloon1">H</div>  
+     <div class="balloon balloon1">A</div>
+     <div class="balloon balloon1">P</div>
+     <div class="balloon balloon1">P</div> 
+     <div class="balloon balloon1">Y</div>
+    </div>
+    <div class="balloon_container">
+        <div class="balloon balloon2">B</div>  
+        <div class="balloon balloon2">I</div>
+        <div class="balloon balloon2">R</div> 
+        <div class="balloon balloon2">T</div>
+        <div class="balloon balloon2">H</div>
+    </div>
+    <div class="balloon_container">
+        <div class="balloon balloon3">D</div>  
+        <div class="balloon balloon3">A</div>
+        <div class="balloon balloon3">Y</div>
+    </div>
+</body>
+</html>
